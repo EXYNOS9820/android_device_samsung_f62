@@ -25,6 +25,10 @@ $(call inherit-product, vendor/samsung/f62/f62-vendor.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    libexynosgraphicbuffer
+
 # Fingerprint Gestures
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
