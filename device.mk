@@ -36,5 +36,6 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayF62 \
+    SettingsOverlayF62 \
     SettingsProviderOverlayF62 \
     SystemUIOverlayF62
