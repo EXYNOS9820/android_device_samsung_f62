@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayF62 \
+    LatinIMEOverlayF62 \
     SettingsOverlayF62 \
     SettingsProviderOverlayF62 \
     SettingsProviderOverlayM62 \
