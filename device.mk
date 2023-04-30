@@ -38,4 +38,5 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayF62 \
     SettingsOverlayF62 \
     SettingsProviderOverlayF62 \
+    SettingsProviderOverlayM62 \
     SystemUIOverlayF62
