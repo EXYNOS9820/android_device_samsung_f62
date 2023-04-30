@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
 
+# init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init/init.f62.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.f62.rc
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayF62 \

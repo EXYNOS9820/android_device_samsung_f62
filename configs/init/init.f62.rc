@@ -1,0 +1,5 @@
+on property:ro.boot.em.model=SM-E625F
+    setprop bluetooth.device.default_name "Galaxy F62"
+
+on property:ro.boot.em.model=SM-M625F
+    setprop bluetooth.device.default_name "Galaxy M62"
